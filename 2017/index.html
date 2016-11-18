@@ -1,0 +1,434 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Internet of Agents</title>
+    <!--REQUIRED STYLE SHEETS-->
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONTAWESOME STYLE CSS -->
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+       <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- GOOGLE FONT ->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <style>
+     /* Fade transition for carousel items */
+     .carousel .item {
+     left: 0 !important;
+     -webkit-transition: opacity 4s; /*adjust timing here */
+     -moz-transition: opacity .4s;
+     -o-transition: opacity .4s;
+     transition: opacity 4s;
+     }
+     .carousel-control {
+         background-image: none !important; /* remove background gradients on controls */
+        }
+     /* Fade controls with items */
+     .next.left,
+     .prev.right {
+         opacity: 1;
+         z-index: 1;
+        }
+     .active.left,
+     .active.right {
+         opacity: 0;
+         z-index: 2;
+        }
+    
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+    }
+    </style>
+</head>
+
+<body>
+     <!-- NAV SECTION -->
+         <div class="navbar navbar-inverse navbar-fixed-top">
+       
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" > IoA Workshop</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Interest</a></li>
+                    <li><a href="#projects">Time</a></li>
+                     <li><a href="#about">Join</a></li>
+                    <li><a href="#contact">Venue</a></li>
+                    <li><a href="./committee.html">We</a></li>
+                    <!--li><a href="./submit.html">Submission</a></li-->
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+     <!--END NAV SECTION -->
+    
+    <!--HOME SECTION-->
+    <!--div class="callout large">
+        <div class="row column text-center">
+            <h1>Internet of Agents</h1>
+            <p class="lead">The First International Workshop on the Internet of Agents (IoA)</p>
+            
+            <a href="http://www.aamas2017.org/" class="button large hollow">AAMAS</a>
+            <a href="submission.html" class="button large">Paper Submission</a>
+            
+            <p class="lead">São Paulo, Brazil</p>
+            <p class="lead">May 8, 2017</p>
+        </div>
+    </div-->
+     
+    <div id="home-sec">
+    <div class="container"  >
+        <div class="row text-center">
+            <div  class="col-md-12" >
+         <div id="carousel-example" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="item active" >
+
+                            <!--img src="assets/img/sao-paulo2.jpg" alt="" /-->
+                            <img src="assets/img/logo1.png" alt="" />
+                            <div class="carousel-caption">
+                                <h2 class="back-light">The 2nd International Workshop on the <br>
+                                <strong>Internet of Agents</strong> (IoA)</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <!--img src="assets/img/sao-paulo2.jpg" alt="" /-->
+                            <img src="assets/img/logo1.png" alt="" />
+                            <div class="carousel-caption ">
+                                <h2 class="back-light"> May 8, 2017</h2>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="assets/img/logo1.png" alt="" />
+                            <div class="carousel-caption ">
+                                <h2 class="back-light">In Conjunction with AAMAS'17</h2>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <a href="http://www.aamas2017.org/"><img src="assets/img/aamas_logo.png" alt="" /></a>
+                            <!--div class="carousel-caption " >
+                                <h4 class="back-light">In conjunction with</h4>
+                            </div-->
+                        </div>
+                        <!--div class="item">
+                            <img src="assets/img/sao-paulo2.jpg" alt="" />
+                            <!--div class="carousel-caption ">
+                                <h4 class="back-light">In Conjunction with AAMAS 2017</h4>
+                            </div->
+                        </div-->
+                    </div>
+
+                    <!--ol class="carousel-indicators">
+                        <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example" data-slide-to="1"></li>
+                        <li data-target="#carousel-example" data-slide-to="2"></li>
+                        <li data-target="#carousel-example" data-slide-to="3"></li>
+                        <li data-target="#carousel-example" data-slide-to="4"></li>
+                    </ol-->
+                </div>
+                 
+            </div>
+        </div>
+    </div>
+         </div>
+    
+    
+    <section  id="home">
+        <div class="container">
+            
+
+         <div class="row">
+             <div class="col-md-7 col-sm-4  icon-big text-justify" >
+                 <i class="fa fa-bullhorn fa-4x"></i>
+                  <h1>Internet of Agents, </h1>
+                      <p>
+                      On the confluence between <strong>Multi-Agent Systems</strong> (MAS) and the <strong>Internet of Things</strong> (IoT), there is a strong ongoing trend for the IoT to adapt to the intelligent nature/architecture of the MAS. In the <strong>Internet of Agents</strong> (IoA) workshop, we aim to understand the current range of nascent network centric agents. At one end of the spectrum, this includes agents’ efforts to form collaborative units. On the other end of the spectrum, we seek to understand techniques and methodologies for constructing online agents that represent interests of their actual counterparts and take actions autonomously. This workshop will reflect the impacts of the dynamic network proliferation and start of smart agent systems that exploit and explore opportunities heralded by the fast social-pace of interconnectivity.
+                      <br> <br>
+                      Smart agents are aware of the social climate of their environment while performing their design tasks or multitasks. They account for interactions with other agents so as to perform social acts in order to complement their physical and speech acts. This workshop emphasizes on the operational elements of the dynamic network that facilitate intelligence on the Internet. Social and cognitive foundations surrounding IoA that include nature of interactions among agents engaged in a meaningful exchange are of special interest.
+                            </p>
+             </div>
+             <!--div class="col-md-4 col-sm-4  icon-big" > %text-center
+                 <i class="fa fa-tree fa-4x"></i>
+                 <h1>24x7 Support </h1>
+                      <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+             </div-->
+             <div class="col-md-5 col-sm-4  icon-big" >
+                 <i class="fa fa-tags fa-4x"></i>
+                 <h1>Topics: </h1>
+                      <ul>
+                        <li> Challenges and theoretic problem in IoT: </li>
+                            <ol>
+                                <li> Agent paradigms for highly distributed system </li>
+                                <li> Parallel system descriptions of IoT </li>
+                                <li> New boundaries for Agents real time environments </li>
+                            </ol>
+
+                      <li> Discovery and Selection in IoT applications:</li>
+                            <ol>
+                                <li> Expressive descriptions of things </li>
+                                <li> Automated service discovery </li>
+                                <li> Automated service selection </li>
+                                <li> Quality-of-Service (QoS) in IoT </li>
+                                <li> Service Composition </li>
+                            </ol>
+
+                      <li> Monitoring and Control of IoT applications:</li>
+                            <ol>
+                                <li> Self-Configuration </li>
+                                <li> Self-Adaption </li>
+                                <li> Self-Optimization </li>
+                            </ol>
+
+                      <li> Cooperation in IoT applications:</li>
+                            <ol>
+                                <li> Task Decomposition </li>
+                                <li> (Distributed) Planning </li>
+                            </ol>
+
+                      <li> Security for IOT applications:</li>
+                            <ol>
+                                <li> Self-Healing </li>
+                                <li> Self-Protection </li>
+                           </ol>
+                        </ul>
+             </div>
+         </div>
+          
+
+        </div>
+    </section>
+
+     <!--END HOME SECTION-->
+
+
+    <div class="container">
+        <div class="row text-center">
+             <span class="line-sep ">
+                 <hr>
+    </span>
+        </div>
+    </div>
+   
+ <!--PROJECTS SECTION-->
+
+      <section  id="projects">
+           <div class="container">
+<div class="row text-center">
+                <div class="text-center">
+                    <div class="col-md-5 col-sm-4 alert-danger">
+                        
+                            <h4>IMPORTANT DATES</h4>
+                       <p>
+                                <ul align=left>
+                                    <li> November 30, 2016: Workshop announced </li>
+                                    <li> <strong>February 7, 2017</strong>: Deadline for paper submissions </li>
+                                    <li> March 2, 2017:  Announcement of accepted papers </li>
+                                    <li> March 10, 2016: Camera-ready submissions </li>
+                                    <li> May 8, 2017: Workshop Day </li>
+                                </ul>
+                            </p>
+                            
+                        
+                    </div>
+                    <div class="col-md-7 col-sm-4 text-center">
+                     <h4>WORKSHOP OBJECTIVES</h4>
+                       <p> The workshop seeks to attract papers concerning: </p>
+                       <ul align=left>
+                            <li> Presenting a formal or interdisciplinary architecture of IoA, </li>
+                            <li> Discussing an experiment or prototype for IoA, </li>
+                            <li> Providing a novel approach to IoA, </li>
+                            <li> Mapping an existing approach to IoA, or </li>
+                            <li> Protecting IoA. </li>
+                       </ul>
+                       <p> This can be through a theoretical modeling, animation or simulation. </p>
+                                <!--img class="img-responsive" src="assets/img/4.jpg" alt=""-->
+                                 &nbsp;&nbsp;&nbsp;&nbsp;
+                           <!--div class="project-cls"-->
+                            <!--div align=right><a href="#"> See details <i class="fa fa-arrow-right"></i>  </a>
+                           </div-->
+                    </div>
+                   
+                   <!--div class="col-md-4 col-sm-4 text-center">
+                     <h4>The Royal Palace</h4>
+                       <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Curabitur nec nisl odio. Mauris vehicula at nunc id posuere.
+                            </p>  
+                                &nbsp;&nbsp;  <img class="img-responsive" src="assets/img/4.jpg" alt="">
+                           <div class="project-cls">
+                            <a href="#"> See Project <i class="fa fa-arrow-right"></i>  </a>  
+                           </div>
+                    </div-->
+                </div>
+                  </div>
+               </div>
+      </section>
+
+    <!--END PROJECTS SECTION-->
+    <div class="container">
+        <div class="row text-center">
+             <span class="line-sep ">
+<hr>
+             </span>
+        </div>
+    </div>
+    <!--ABOUT SECTION-->
+    <section  id="about">
+           <div class="container">
+<div class="row text-center">
+                <div class="text-center">
+                   
+                    <div class="col-md-4 col-sm-4 ">
+                        <!--img class="img-circle" src="assets/img/team1.png" alt=""-->
+                            <i class="fa fa-edit fa-3x"></i>
+                           <h4><strong>Paper Format</strong> </h4>
+                       <p>
+                                <a href="#">LaTeX Template</a> <br>
+                                <a href="#">MS Word Template</a>
+                            </p>
+                            
+                    </div>
+                   
+                    <div class="col-md-4 col-sm-4 ">
+                        <!--img class="img-circle" src="assets/img/team2.jpg" alt=""-->
+                            <i class="fa fa-cloud-upload fa-3x"></i>
+                           <h4><strong>Paper Submission</strong> </h4>
+                           <p>
+                                <a href="#">EasyChair</a> <br>
+                                (Create an account and follow the instructions)
+                            </p>
+                          
+                    </div>
+                     <div class="col-md-4 col-sm-4 alert-success ">
+                         <i class="fa fa-book fa-3x"></i>
+                         <h4>Proceeding:</h4>
+                            <ul align=left>
+                                <li> Visionary paper: <a href="http://www.springer.com/series/558">LNAI Hot Topics series</a></li>
+                                <li> The best paper: <a href="http://www.springer.com/series/7899">CCIS series</a></li>
+                            </ul>
+                                <!--li> The two books will be compilations of the most visionary and the best papers of the AAMAS 2017 Workshops.</li--> <br>
+                                
+                                <div align=right><a href="./submit.html">More detail <i class="fa fa-arrow-right"></i></a></div>
+                            
+                       
+                            
+                            
+                    </div>
+                </div>
+                  </div>
+               </div>
+      </section>
+    <!--END ABOUT SECTION-->
+    <div class="container">
+        <div class="row text-center">
+             <span class="line-sep ">
+<hr>
+             </span>
+        </div>
+    </div>
+    
+    <!--CONTACT SECTION-->
+    <section  id="contact">
+           <div class="container">
+<div class="row text-center">
+                <div class="text-center">
+                    <div class="col-md-6 col-sm-6">
+                   <!--iframe class="cnt" src="" s=""></iframe-->
+                   <iframe class="cnt" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7311.726713808983!2d-46.696174!3d-23.609233!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdef17ec1a62a235d!2sSheraton+Sao+Paulo+WTC+Hotel!5e0!3m2!1sen!2sar!4v1479025033914" s=""></iframe>
+
+                </div>
+                   <div class="col-md-6 col-sm-6 alert-info">
+                            <h4><i class="fa fa-map-marker fa-1x"></i> LOCATION</h4>
+                 
+                    <p>
+                    <strong> Address: </strong> &nbsp;Avenida das Nações Unidas, 12559, Brooklin Novo <br>
+                    São Paulo, 04578-903, Brazil
+                        <br> <br>
+                        Feel free to contact us:
+                                      
+                    </p>
+                        <div class="row">
+                            <div class="col-md-6 ">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" required="required" placeholder="Email address">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="form-group">
+                                    <textarea name="message" id="message" required="required" class="form-control" rows="3" placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-info" onclick="window.location.href='mailto:alqithami@gmail.com'">Send</button>
+                                </div>
+                            </div>
+                        </div>
+                            
+                            
+                    </div>
+                    
+                     
+                </div>
+                  </div>
+               </div>
+      </section>
+    <!--END CONTACT SECTION-->
+  
+    <!--FOOTER SECTION -->
+    <div id="footer">
+        2017 | IoA Workshop Series
+         
+    </div>
+    <!-- END FOOTER SECTION -->
+
+    <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+    <!-- CORE JQUERY  -->
+    <script src="assets/plugins/jquery-1.10.2.js"></script>
+    <!-- BOOTSTRAP CORE SCRIPT   -->
+    <script src="assets/plugins/bootstrap.min.js"></script>  
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+    </body>
+</html>
